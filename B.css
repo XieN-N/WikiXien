@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	background-image:url("grey-brickwork.jpg");
+}
+ul {
+	list-style: none;
+	background-color:#27245F;
+	color: #ffffff;
+	outline: none;
+	padding: 0px;
+	float: right;
+	display: inline-block;
+	transition: 0.5s;
+	border-top-right-radius: 0px;
+	background: rgba(0, 0, 0, 0.7);
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+li {
+	padding: 20px;
+	text-align: center;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	border-bottom: 2px dashed #ffffff;
+	transition: 0.5s;
+	border-top-right-radius: 0px;
+	text-shadow: 1px 1px 2px black;
+}
+
+li:hover {
+	background-color:#ffffff;
+	color: black;
+}
+
+li ul {
+	display: none;
+	border-radius: 20px;
+	border-top-right-radius: 0px;
+	transition: 0.5s;
+	color: white;
+}
+
+li:hover ul {
+	display:inherit;
+	border-radius: 20px;
+	border-top-right-radius: 0px;
+}
+a {
+	color: #ffffff;
+	text-decoration: none;
+}
+h1 {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 1895px;
+	color: #000000;
+	border-bottom: 2px dashed black;
+}
+
+h1 strong {
+	color:#000000;
+}
+
+td, th {
+	padding: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+td:hover {
+	transition: 0.5s;
+	background-image:url("white-cubes.png");
+}
+
+td a {
+	color: black;
+}
+
+td a:hover {
+	text-decoration: underline;
+}
+
+.red {
+	background-color: #000000;
+}
+
+.red:hover {
+	background-color: red;
+}
+
+div {
+	font-size: 13px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+table {
+	background-color: #ffffff;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	margin-left: 350px;
+}
+
+th {
+	background-image:url("white-scratch-lines.png")
+}
+
+ul img {
+	width: 200px;
+	transition: 0.5s;
+}
+
+ul img:hover {
+	width: 230px;
+}
+
+p {
+	font-size: 40px;
+	text-align: center;
+	margin-right: 250px;
+}
+
+.forVideo {
+	border: 4px dashed #000000; background-image:url("100287849-birthday-surprise-seamless-pattern-background.jpg");
+	border-radius: 40px;
+}
+
+html {
+	scroll-behavior: smooth;
+}
